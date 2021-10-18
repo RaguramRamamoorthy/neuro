@@ -1,14 +1,13 @@
-from flask import Flask, render_template,request               #import
+from flask import Flask, render_template,request             
 import tensorflow as tensorflow
 from tensorflow.keras.preprocessing import image
 import numpy as np 
 import os
-from tensorflow.keras.models import load_modelclea
+from tensorflow.keras.models import load_model
 from tensorflow.keras.models import Model
-#made some change
 
 
-app = Flask(__name__)                                    #calling
+app = Flask(__name__)                                  
 
 
 def get_model():
