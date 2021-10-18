@@ -1,9 +1,10 @@
 from flask import Flask, render_template,request               #import
-from keras.preprocessing import image
+import tensorflow as tensorflow
+from tensorflow.keras.preprocessing import image
 import numpy as np 
 import os
-from keras.models import load_model
-from keras.models import Model
+from tensorflow.keras.models import load_modelclea
+from tensorflow.keras.models import Model
 #made some change
 
 
